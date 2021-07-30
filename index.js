@@ -5,7 +5,7 @@ function submitData(name, email){
     };
     
 const configObj = {
-    method = "POST",
+    method: "POST",
     headers: {
         "Content-Type": "application/json",
         "Accept": "application/json"
@@ -18,6 +18,13 @@ return fetch("http://localhost:3000/users", configObj)
         return response.json();
     })
     .then(function(object){
-        console.log(object);
+        let h1 = document.createElement('h1');
+        h1.innerHTML = object.id;
+        document.body.appendChild(h1);
+    })
+    .catch(function(error){
+        let h3 = document.createElement('h3');
+        h3.innerHTML = error.message;
+        document.body.appendChild(h3);
     });
 }

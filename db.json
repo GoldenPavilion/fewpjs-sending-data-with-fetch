@@ -43,7 +43,46 @@
       "id": 2
     }
   ],
-  "users": [],
+  "users": [
+    {
+      "name": "Bill",
+      "email": "bill@ohmy.com",
+      "id": 1
+    },
+    {
+      "name": "Harry",
+      "email": "harry@ohmy.com",
+      "id": 2
+    },
+    {
+      "name": "Cory",
+      "email": "cory@ohhey.com",
+      "id": 3
+    },
+    {
+      "name": "Cory",
+      "email": "cory@ohhey.com",
+      "id": 4
+    },
+    {
+      "name": "Cory",
+      "email": "cory@ohhey.com",
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "name": "Crazy",
+      "email": "crazy@ohhey.com",
+      "id": 7
+    },
+    {
+      "name": "barry",
+      "email": "barry@ohhey.com",
+      "id": 8
+    }
+  ],
   "robots": [
     {
       "robotName": "C8-09S100K",
